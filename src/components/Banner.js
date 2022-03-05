@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Banner.css";
 import axios from "./axios";
 import requests from "./Requests";
+import { FaPlay, FaPlus } from "react-icons/fa";
 
 const Banner = () => {
   const [movie, setMovie] = useState([]);
@@ -19,7 +20,7 @@ const Banner = () => {
     }
     fetchDetail();
   }, []);
-  console.log(movie);
+  // console.log(movie);
 
   function truncate(string, n) {
     return string?.length > n ? string.substr(0, n - 1) + "..." : string;
@@ -36,8 +37,12 @@ const Banner = () => {
       <div className="banner-content">
         <h1 className="banner-title">{movie.title || movie.name}</h1>
         <div className="banner-buttons">
-          <button className="banner-button">Play</button>
-          <button className="banner-button">My List</button>
+          <button className="banner-button">
+            <FaPlay /> Play
+          </button>
+          <button className="banner-button">
+            <FaPlus /> My List
+          </button>
         </div>
         <div className="content">{truncate(movie.overview, 250)}</div>
       </div>

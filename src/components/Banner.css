@@ -1,12 +1,14 @@
 .banner {
   position: relative;
-  height: 500px;
+  height: 550px;
   object-fit: contain;
   color: white;
 }
+
 .banner-content {
-  padding: 10rem 4rem;
+  padding: 12rem 4rem;
   height: 220px;
+  z-index: 111;
 }
 .banner-title {
   font-size: 3rem;
@@ -25,11 +27,11 @@
   height: 80px;
 }
 .fadeBottom {
-  height: 11.2rem;
+  height: 10.4rem;
   background-image: linear-gradient(
     180deg,
     transparent,
-    rgba(37, 37, 37, 0.7),
+    rgba(27, 27, 27, 0.7),
     #111
   );
 }
