@@ -1,0 +1,21 @@
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 1.7rem 4rem;
+  width: 100%;
+
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.showBlack {
+  background-color: #111;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  height: 2.9rem;
+}
+.logo {
+  cursor: pointer;
+}
