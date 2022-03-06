@@ -1,0 +1,48 @@
+.loginRow {
+  background-color: black;
+  color: white;
+  padding: 2.5rem 0rem;
+  border-top: 9px solid #222;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 74%;
+  margin: auto;
+}
+.wrap h1 {
+  font-size: 3.2rem;
+}
+.wrap h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.right {
+  position: relative;
+}
+.rowsImage {
+  height: 400px;
+  position: relative;
+  z-index: 111;
+}
+
+.vdo {
+  position: absolute;
+  left: 13.5%;
+  top: 5.35rem;
+}
+.lowerVideo {
+  position: absolute;
+  left: 19%;
+  top: 0.1rem;
+  z-index: 0;
+}
+.lowerVideo video {
+  height: 270px;
+  width: 320px;
+}
+.vdo video {
+  height: 216px;
+}

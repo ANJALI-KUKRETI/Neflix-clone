@@ -1,12 +1,20 @@
 import React from "react";
-
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./screens/HomePage";
+import LoginScreen from "./screens/LoginScreen";
 import "./App.css";
-import HomePage from "./components/HomePage";
 
 function App() {
+  const user = null;
   return (
     <div className="App">
-      <HomePage />
+      {!user ? (
+        <LoginScreen />
+      ) : (
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      )}
     </div>
   );
 }
