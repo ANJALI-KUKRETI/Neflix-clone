@@ -1,0 +1,37 @@
+.accordion {
+  background-color: black;
+  color: white;
+  border-top: 9px solid #222;
+  padding: 5rem;
+}
+.wrapA {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2.5rem;
+}
+.accordionBar {
+  width: 100%;
+  margin-top: 10px;
+}
+.accTitleContainer {
+  background-color: #303030;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.accPara {
+  background-color: #303030;
+  margin-top: 2px;
+  padding: 1.2rem;
+  font-size: 1.7rem;
+}
