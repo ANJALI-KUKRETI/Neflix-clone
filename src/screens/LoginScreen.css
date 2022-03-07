@@ -73,7 +73,7 @@
   margin-top: 1rem;
   width: 100%;
 }
-.loginInput form {
+form {
   display: flex;
   align-items: center;
 }
@@ -102,4 +102,14 @@
 }
 .getStart:hover {
   background-color: #f81414;
+}
+.lowerEmail {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.lowerEmail .in {
+  width: 50%;
+  margin: auto;
 }

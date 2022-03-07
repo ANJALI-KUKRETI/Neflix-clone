@@ -1,0 +1,17 @@
+.footer {
+  background-color: black;
+  color: #494949;
+  border-top: 9px solid #222;
+}
+.footWrap {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0rem;
+  font-weight: 500;
+}
+.one div {
+  margin-top: 12px;
+}
