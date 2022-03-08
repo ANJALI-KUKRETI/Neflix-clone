@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Avatar from "./Avatar";
 import "./Navbar.css";
+import "../screens/LoginScreen.css";
+import { auth } from "../firebase";
 
 const Navbar = () => {
   const [showBlack, setShowBlack] = useState(false);
@@ -26,7 +27,9 @@ const Navbar = () => {
           src="https://beat-netflix-clone.vercel.app/static/media/logo.5787551b.svg"
           alt="logo"
         />
-        <Avatar />
+        <button className="login" onClick={() => auth.signOut()}>
+          Sign Out
+        </button>
       </div>
     </div>
   );

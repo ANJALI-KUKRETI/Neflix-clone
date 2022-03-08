@@ -13,7 +13,6 @@
 .banner-title {
   font-size: 3rem;
   padding-bottom: 0.3rem;
-  /* font-weight: 800; */
 }
 .content {
   width: 35rem;
@@ -21,9 +20,6 @@
   font-size: 1.03rem;
   font-weight: 500;
   line-height: 1.3;
-  /* letter-spacing: 0.8px; */
-  /* max-width: 360px; */
-  /* font-weight: 600; */
   height: 80px;
 }
 .fadeBottom {

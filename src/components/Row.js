@@ -15,7 +15,7 @@ const Row = ({ title, fetchUrl, isLarge = false }) => {
     }
     fetchData();
   }, [fetchUrl]);
-  console.log(movies);
+  // console.log(movies);
   return (
     <div className="row">
       <h2>{title}</h2>
